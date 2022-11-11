@@ -1437,7 +1437,7 @@
     "xml2js" "^0.4.19"
     "xxhashjs" "^0.2.2"
 
-"@tarojs/components@3.5.7":
+"@tarojs/components@^3.2.1", "@tarojs/components@3.5.7":
   "integrity" "sha512-gbYesXaGbcD8vrnKuwU6T3d5Fs4b8oSiukg6LY/ejACenakLJOBIOF2Kc2EgDaVwZPWQ+5fTT6w26YT5SrfHcw=="
   "resolved" "https://registry.npmjs.org/@tarojs/components/-/components-3.5.7.tgz"
   "version" "3.5.7"
@@ -1629,7 +1629,7 @@
     "@tarojs/taro" "3.5.7"
     "loader-utils" "^1.2.3"
 
-"@tarojs/taro@3.5.7":
+"@tarojs/taro@^3.2.1", "@tarojs/taro@3.5.7":
   "integrity" "sha512-wjwzecv7adfGbsE5Lny/TqFoJkszJ4iivx1h1ZtasSlASFpl4bveKTKM2oVe6JylcNcF0eswb1LkdXwCXmJ2Vg=="
   "resolved" "https://registry.npmjs.org/@tarojs/taro/-/taro-3.5.7.tgz"
   "version" "3.5.7"
@@ -4348,6 +4348,11 @@
     "abab" "^2.0.0"
     "whatwg-mimetype" "^2.2.0"
     "whatwg-url" "^7.0.0"
+
+"dayjs@^1.8.29":
+  "integrity" "sha512-zZbY5giJAinCG+7AGaw0wIhNZ6J8AhWuSXKvuc1KAyMiRsvGQWqh4L+MomvhdAYjN+lqvVCMq1I41e3YHvXkyQ=="
+  "resolved" "https://registry.npmjs.org/dayjs/-/dayjs-1.11.6.tgz"
+  "version" "1.11.6"
 
 "de-indent@^1.0.2":
   "integrity" "sha512-e/1zu3xH5MQryN2zdVaF0OrdNLUbvWxzMbi+iNA6Bky7l1RoP8a2fIbRocyHclXt/arDrrR6lL3TqFD9pMQTsg=="
@@ -7675,7 +7680,7 @@
   dependencies:
     "p-locate" "^5.0.0"
 
-"lodash-es@4.17.21":
+"lodash-es@^4.17.15", "lodash-es@4.17.21":
   "integrity" "sha512-mKnC+QJ9pWVzv+C4/U3rRsHapFfHvQFoFB92e52xeyGMcX6/OlIl78je1u8vePzYZSkkogMPJ2yjxxsb89cxyw=="
   "resolved" "https://registry.npmjs.org/lodash-es/-/lodash-es-4.17.21.tgz"
   "version" "4.17.21"
@@ -11325,6 +11330,14 @@
     "css-mediaquery" "^0.1.2"
     "postcss-value-parser" "^3.3.0"
 
+"taro-ui-vue3@^1.0.0-alpha.21":
+  "integrity" "sha512-3//e9gnd8VhG9913ifVZP1wwlE9i1iJwwaYkHhSFgD1RhZomHqN+nRBuzNmV+aYZzjpAYqLSpt0v7CHaIyQwdA=="
+  "resolved" "https://registry.npmjs.org/taro-ui-vue3/-/taro-ui-vue3-1.0.0-alpha.21.tgz"
+  "version" "1.0.0-alpha.21"
+  dependencies:
+    "dayjs" "^1.8.29"
+    "lodash-es" "^4.17.15"
+
 "term-size@^1.2.0":
   "integrity" "sha512-7dPUZQGy/+m3/wjVz3ZW5dobSoD/02NxJpoXUX0WIyjfVS3l0c+b/+9phIDFA7FHzkYtwtMFgeGZ/Y8jVTeqQQ=="
   "resolved" "https://registry.npmjs.org/term-size/-/term-size-1.2.0.tgz"
@@ -11898,7 +11911,7 @@
     "de-indent" "^1.0.2"
     "he" "^1.2.0"
 
-"vue@^3.0.0", "vue@3.2.41":
+"vue@^3.0.0", "vue@^3.0.10", "vue@3.2.41":
   "integrity" "sha512-uuuvnrDXEeZ9VUPljgHkqB5IaVO8SxhPpqF2eWOukVrBnRBx2THPSGQBnVRt0GrIG1gvCmFXMGbd7FqcT1ixNQ=="
   "resolved" "https://registry.npmjs.org/vue/-/vue-3.2.41.tgz"
   "version" "3.2.41"

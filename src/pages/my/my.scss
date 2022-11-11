@@ -17,4 +17,15 @@
     margin: 15px 0;
     background-color: #fff;
   }
+  .action-list {
+    .list-item {
+      box-sizing: border-box;
+      padding: 0 20px;
+      height: 120px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-bottom: 1px solid #c5d9e8;
+    }
+  }
 }
