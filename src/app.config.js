@@ -1,6 +1,7 @@
 export default defineAppConfig({
   pages: [
     'pages/index/index',
+    'pages/list/list',
     'pages/my/my'
   ],
   window: {
@@ -16,6 +17,7 @@ export default defineAppConfig({
     borderStyle: 'black',
     list: [
       { pagePath: 'pages/index/index', text: '首页' },
+      { pagePath: 'pages/list/list', text: '列表' },
       { pagePath: 'pages/my/my', text: '我的' },
     ]
   }
