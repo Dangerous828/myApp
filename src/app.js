@@ -5,6 +5,9 @@ import './app.scss'
 // 引用全部组件样式
 import 'taro-ui-vue3/dist/style/index.scss'
 
+// 引入pinia
+import { createPinia } from 'pinia'
+
 const App = createApp({
   // 可以使用所有的 Vue 生命周期方法
   mounted() { },
@@ -24,5 +27,6 @@ const App = createApp({
 // 引用全部组件
 const tuv3 = createUI()
 App.use(tuv3)
+App.use(createPinia())
 
 export default App

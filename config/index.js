@@ -10,7 +10,9 @@ const config = {
   },
   sourceRoot: 'src',
   outputRoot: 'dist',
-  plugins: [],
+  plugins: [
+    'taro-plugin-pinia'
+  ],
   defineConstants: {
   },
   copy: {
