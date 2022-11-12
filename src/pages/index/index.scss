@@ -1,12 +1,44 @@
-.landing-title {
-  width: 100%;
-  text-align: center;
-  font-weight: bold;
-}
-.search-bar {
-  margin: 0 auto;
-  width: 80%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+$default-x-spacing: 40px;
+
+.landing-page {
+  padding-top: 30px;
+  min-height: 100vh;
+
+  .search-bar {
+    display: flex;
+    align-items: center;
+    border: 1px solid rgb(210, 210, 210);
+    border-radius: 10px;
+    margin: 0px $default-x-spacing;
+    padding: 0px 30px;
+    
+    .search-icon {
+      color: #a7a7a7;
+      flex-shrink: 0;
+    }
+
+    .search-input {
+      flex: 1;
+
+      .at-input {
+        padding: 15px 0px;
+      }
+    }
+
+    .search-address-wrap {
+      flex-shrink: 0;
+      display: flex;
+      align-items: center;
+
+      .address-icon {
+        color: #4381f1;
+        margin-right: 10px;
+      }
+
+      .address-text {
+        font-size: 30px; 
+        font-weight: bold;
+      }
+    }
+  }
 }
