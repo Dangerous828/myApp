@@ -11,8 +11,8 @@ const math = create(all, config);
 /**
  * 计算函数
  * @example evaluate('1 + 2 + 3 + 4') => 10
- * @param {*} expr 
- * @param  {...any} args 
+ * @param {*} expr
+ * @param  {...any} args
  * @returns number
  */
 export function evaluate(expr, ...args) {
@@ -29,7 +29,7 @@ export function evaluate(expr, ...args) {
 /**
  * 加法函数
  * @example add(1, 2, 3, 4) => 10
- * @param  {...any} args 
+ * @param  {...any} args
  * @returns number
  */
 export function add(...args) {
@@ -42,7 +42,7 @@ export function add(...args) {
 /**
  * 减法函数
  * @example minus(4, 1, 1) => 2
- * @param  {...any} args 
+ * @param  {...any} args
  * @returns number
  */
 export function minus(...args) {
@@ -55,8 +55,8 @@ export function minus(...args) {
 /**
  * 除法函数
  * @example div(4, 2, 1) => 2
- * @param  {...any} args 
- * @returns 
+ * @param  {...any} args
+ * @returns
  */
 export function div(...args) {
   const exisZero = [...args].some((item) => item == 0);
