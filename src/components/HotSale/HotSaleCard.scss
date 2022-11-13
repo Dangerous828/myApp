@@ -1,0 +1,40 @@
+.hot-sale-card {
+  .card-image {
+    position: relative;
+    margin-bottom: 10px;
+    width: 100%;
+    height: 160px;
+
+    image {
+      width: 100%;
+      height: 100%;
+      background: #000;
+      object-fit: scale-down;
+    }
+
+    .image-tag {
+      position: absolute;
+      bottom: 10px;
+      right: 10px;
+      background-color: #fff;
+      font-size: 28px;
+      padding: 0px 10px;
+    }
+  }
+
+  .content {
+    .title {
+      font-weight: bold;
+      margin-bottom: 10px;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+      font-size: 30px;
+    }
+
+    .sub-title {
+      font-size: 24px;
+      color: #9a9a9a
+    }
+  }
+}

@@ -1,6 +1,8 @@
+import { INDEX_PATH, LIST_PATH, MY_PATH } from "./routes/path";
+
 /* eslint-disable no-undef */
 export default defineAppConfig({
-  pages: ["pages/index/index", "pages/list/list", "pages/my/my"],
+  pages: [INDEX_PATH, LIST_PATH, MY_PATH],
   window: {
     backgroundTextStyle: "light",
     navigationBarBackgroundColor: "#fff",
